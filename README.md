@@ -1,4 +1,3 @@
-# Documentation example
+# Welcome to my Website!
 
-We use this example in the lesson
-[How to document your research software](https://coderefinery.github.io/documentation/).
+But you should not be here. Join me at https://youngil-1013.github.io/blog/
