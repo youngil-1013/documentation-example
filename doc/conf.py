@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Example'
-copyright = 'workshop participant'
-author = 'workshop participant'
+project = 'Young\'s Webpage'
+copyright = 'youngil-1013@2025'
+author = 'Young Il Kim'
 release = '0.1'
 
 
