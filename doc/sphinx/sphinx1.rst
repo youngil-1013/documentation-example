@@ -10,7 +10,7 @@ I met Professor Olivier Danvy, who would always write his lecture notes in Sphin
 Following his footsteps, I decided to build my own website in Sphinx and RST and deploy the website using GitHub Pages.
 Because this blog is about how I built the website and the nested blog in it, this blog a self-referential blog.
     
-    `"This is not a self-referential sentence." <https://en.wikipedia.org/wiki/Liar_paradox>`_
+  `"This is not a self-referential sentence." <https://en.wikipedia.org/wiki/Liar_paradox>`_
 
 RST and Sphinx
 --------------

@@ -7,15 +7,15 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Young\'s Webpage'
-copyright = 'youngil-1013@2025'
+copyright = 'Young Il Kim'
 author = 'Young Il Kim'
-release = '0.1'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = ['myst_parser', 'sphinx_toolbox.collapse']
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

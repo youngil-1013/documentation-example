@@ -4,6 +4,16 @@ Hi there, welcome to my website. I am Young Il Kim, a final year Computer Scienc
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: About me:
 
-   sphinx/sphinx1.rst
+   details/curriculum_vitae.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Tools:
+
+   sphinx/sphinx_index.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Languages and projects:
