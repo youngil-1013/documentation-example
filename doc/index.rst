@@ -1,17 +1,7 @@
-.. Example documentation master file, created by
-   sphinx-quickstart on Sat Sep 23 20:35:12 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Young's Website
 
-Welcome to Young Il Kim's Blog
+Hi there, welcome to my website. I am Young Il Kim, a final year Computer Science Student at Yale-NUS College. You can find information about me and some of the projects I have done/am doing/did (and abandoned) in this website. Enjoy!
 ===================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   some-feature.md
-   another-feature.md
 
 .. toctree::
    :maxdepth: 2
