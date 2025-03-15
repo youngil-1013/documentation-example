@@ -19,6 +19,7 @@ jobs:
           pip install sphinx
           pip install myst-parser
           pip install sphinx-toolbox
+          pip install sphinx_rtd_theme
       - name: Build documentation
         run: |
           sphinx-build -b html ./docs ./docs/_build/html
