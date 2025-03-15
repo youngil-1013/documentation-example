@@ -1,33 +1,27 @@
 name: Deploy Docs
 
-on:
-  push:
-    branches:
-      - main
+on: [push, pull_request, workflow_dispatch]
 
 permissions:
   contents: write
 
 jobs:
-  deploy-docs:
+  docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.x'
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
       - name: Install dependencies
         run: |
-          pip install sphinx
-          pip install myst-parser
-          pip install sphinx-toolbox
-          pip install sphinx_rtd_theme
-      - name: Build documentation
+          pip install sphinx myst-parser sphinx-toolbox sphinx_rtd_theme
+      - name: Sphinx build
         run: |
-          sphinx-build -b html ./docs ./docs/_build/html
+          sphinx-build doc _build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
+          publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/_build/html
+          publish_dir: _build/
+          force_orphan: true
