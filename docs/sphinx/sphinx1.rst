@@ -21,8 +21,10 @@ Sphinx was originally built for RST, but as Markdown became more popular, they a
 
 In this blog, I will go through how I have set up Sphinx and RST to build this website. This study follows `CodeRefinery team's documentation <https://coderefinery.github.io/documentation/>`_.
 
+.. _setupfor-ubuntu:
+
 Sphinx setup for Ubuntu
--------------
+-----------------------
 The full prerequisites can be found in the `Sphinx documentation <https://www.sphinx-doc.org/en/master/usage/installation.html>`_.
 However, if you have a fresh Ubuntu installation, follow these steps
 
