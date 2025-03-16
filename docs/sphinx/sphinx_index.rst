@@ -7,3 +7,4 @@ Sphinx and RST
    
    sphinx1.rst
    sphinx2.rst
+   sphinx3.rst

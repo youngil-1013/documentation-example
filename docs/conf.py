@@ -10,6 +10,7 @@ project = 'Young\'s Webpage'
 copyright = 'Young Il Kim'
 author = 'Young Il Kim'
 release = ''
+html_title = 'Young\'s Webpage'
 
 
 # -- General configuration ---------------------------------------------------

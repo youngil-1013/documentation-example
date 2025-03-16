@@ -4,6 +4,8 @@ Sphinx and RST 1: Introduction and Setting up Sphinx
 .. role:: bash(code)
    :language: bash
 
+.. _motivation:
+
 Motivation
 ----------
 Ever since I began programming, I have always wanted to have my own website where I could upload my projects, in a enjoyable but also informative way.
